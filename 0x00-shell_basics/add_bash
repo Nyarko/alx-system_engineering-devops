@@ -1,2 +1,2 @@
 #!/bin/bash
-find -not -name "README.md" -type f -exec sed -i '1 c #!/bin/bash' {} \+
+find -not -name "README.md" -empty -type f -exec [echo "#!/bin/bash" >>] {} \+

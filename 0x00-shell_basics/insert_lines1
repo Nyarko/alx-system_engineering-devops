@@ -1,3 +1,3 @@
-#!/bin/bash
+ #!/bin/bash
 #this inserts to multiple files
 sed -i '1 i #!/bin/bash' filenames
