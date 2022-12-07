@@ -1,2 +1,2 @@
 #!/bin/bash
-find -not -name "README.md" -empty -type f -exec [echo "#!/bin/bash" >>] {} \+
+find -not -name "README.md" -empty -type f -exec ./echoFile "{}" \+
